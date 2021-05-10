@@ -1,1 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+img {
+  width: 100%;
+  display: block;
+}
+
+.margin_wrapper {
+  margin: 0px 150px;
+}
+.margin_wrapper header {
+  display: flex;
+}
+.margin_wrapper header ul {
+  list-style-type: none;
+}
