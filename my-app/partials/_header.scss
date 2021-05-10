@@ -46,10 +46,13 @@
 
 //INIZIO JUMBOTRON
 .jumbotron {
+    display: flex;
     margin-left: 185px;
     margin-right: 185px;
     background-color: $background_celestino;
 
+
+    //LEFT
     .left {
         padding-top: 40px;
         padding-left: 60px;
@@ -70,6 +73,19 @@
         button {
             @include style-button;
             margin-top: 45px;
+        }
+    }
+
+
+    //RIGHT 
+    .right {
+
+        img {
+            position: absolute;
+            right: 190px;
+            width: 670px;
+            height: auto;
+            bottom: 390px;
         }
     }
 }
