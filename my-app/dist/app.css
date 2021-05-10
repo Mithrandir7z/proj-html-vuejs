@@ -80,3 +80,41 @@ img {
   height: auto;
   bottom: 390px;
 }
+
+.flex {
+  display: flex;
+}
+.flex .single-tile {
+  width: 33.33%;
+  display: flex;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.flex .single-tile .left {
+  width: 20%;
+}
+.flex .single-tile .left img {
+  width: 70px;
+  height: auto;
+}
+.flex .single-tile .right {
+  width: 80%;
+}
+.flex .single-tile .right p {
+  padding-top: 15px;
+}
+.flex .single-tile .right .bottom {
+  padding-top: 35px;
+}
+.flex .single-tile .right .bottom ul {
+  list-style-type: none;
+}
+.flex .single-tile .right .bottom ul li {
+  line-height: 34px;
+}
+.flex .single-tile .right .bottom ul li i {
+  color: #377DFF;
+}
+.flex .single-tile .right .bottom ul li span {
+  padding-left: 13px;
+}

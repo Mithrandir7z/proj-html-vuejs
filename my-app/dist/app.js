@@ -10,7 +10,8 @@
 var app = new Vue({
   el: '#root',
   data: {
-    message: 'Hello Vue!'
+    home: "Home",
+    aboutUs: "About Us"
   },
   methods: {},
   mounted: {}
