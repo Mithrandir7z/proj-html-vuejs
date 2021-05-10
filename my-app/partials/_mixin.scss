@@ -11,3 +11,11 @@
 //     width: auto;
 //     height: 100px;
 // }
+
+@mixin style-button {
+    padding: 12px 21px;
+    background-color: $background_celeste;
+    color: $text_bianco;
+    border: $border_bianco;
+    border-radius: 5px;
+}

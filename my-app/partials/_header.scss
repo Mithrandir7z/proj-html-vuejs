@@ -1,13 +1,76 @@
-
+//INIZIO HEADER E NAVBAR
 .margin_wrapper {
-    margin: 0px 150px;
+    margin: 0px 270px;
 
     header {
+        padding-top: 10px;
         display: flex;
+        justify-content: space-between;
+        padding-bottom: 22px;
+
+        .logo {
+
+            img {
+                width: 35px;
+                height: auto;
+            }
+        }
+
+        .navigation {
+            display: flex;
+
+            ul {
+                list-style-type: none;
+                display: flex;
+    
+                li {
+                    padding: 10px;
+                }
+            }
+
+            span {
+                padding: 10px;
+            }
+
+            button {
+                @include style-button;
+                margin-left: 27px;
+            }
+        }   
         
-        ul {
-            list-style-type: none;
-            
+    }
+}
+//FINE HEADER E NAVBAR
+
+
+
+//INIZIO JUMBOTRON
+.jumbotron {
+    margin-left: 185px;
+    margin-right: 185px;
+    background-color: $background_celestino;
+
+    .left {
+        padding-top: 40px;
+        padding-left: 60px;
+        padding-right: 0px;
+        padding-bottom: 100px;
+        width: 50%;
+
+        h1 {
+            line-height: 70px;
+            font-size: 60px;
+        }
+
+        p {
+            padding-top: 25px;
+            color: $text_grigio-chiaro;
+        }
+
+        button {
+            @include style-button;
+            margin-top: 45px;
         }
     }
 }
+//FINE JUMBOTRON

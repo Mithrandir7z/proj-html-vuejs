@@ -10,11 +10,65 @@ img {
 }
 
 .margin_wrapper {
-  margin: 0px 150px;
+  margin: 0px 270px;
 }
 .margin_wrapper header {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 22px;
+}
+.margin_wrapper header .logo img {
+  width: 35px;
+  height: auto;
+}
+.margin_wrapper header .navigation {
   display: flex;
 }
-.margin_wrapper header ul {
+.margin_wrapper header .navigation ul {
   list-style-type: none;
+  display: flex;
+}
+.margin_wrapper header .navigation ul li {
+  padding: 10px;
+}
+.margin_wrapper header .navigation span {
+  padding: 10px;
+}
+.margin_wrapper header .navigation button {
+  padding: 12px 21px;
+  background-color: #377DFF;
+  color: #FFFFFF;
+  border: #FFFFFF;
+  border-radius: 5px;
+  margin-left: 27px;
+}
+
+.jumbotron {
+  margin-left: 185px;
+  margin-right: 185px;
+  background-color: #F2F7FF;
+}
+.jumbotron .left {
+  padding-top: 40px;
+  padding-left: 60px;
+  padding-right: 0px;
+  padding-bottom: 100px;
+  width: 50%;
+}
+.jumbotron .left h1 {
+  line-height: 70px;
+  font-size: 60px;
+}
+.jumbotron .left p {
+  padding-top: 25px;
+  color: #8E989F;
+}
+.jumbotron .left button {
+  padding: 12px 21px;
+  background-color: #377DFF;
+  color: #FFFFFF;
+  border: #FFFFFF;
+  border-radius: 5px;
+  margin-top: 45px;
 }
