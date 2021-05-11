@@ -49,14 +49,6 @@
 }
 //INIZIO TILE ONLINE MARKETING
 
-// .circle_background {
-    //     position: absolute;
-    //     top: 1000;
-    //     left: -200px;
-    //     width: 450px;
-    //     height: auto;
-    // }
-
 
 
 //INIZIO GET TIPS TRICKS
@@ -70,7 +62,7 @@
             padding-bottom: 20px;
 
             h2 {
-                font-size: 36px;
+                font-size: $size_h2;
                 color: $text_grigio-scuro;
             }
             
@@ -123,3 +115,86 @@
     }
 }
 //FINE GET TIPS TRICKS
+
+
+
+//INIZIO POPULAR_FEATURES
+.popular_features {
+    margin-top: 90px;
+
+    .top {
+        display: flex;
+
+        .left {
+            width: 70%;
+    
+            h2 {
+                font-size: $size_h2;
+            }
+    
+            p {
+                padding-top: 25px;
+            }
+        }
+    
+        .right {
+            width: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            button {
+                @include style-button;
+                color: $text_bianco;
+            }
+        }
+    }
+
+
+
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+
+        .griglia_sopra, .griglia_sotto {
+            display: flex;
+        }
+        
+
+        .single_tile_popular_features {
+            width: 25%;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            padding-left: 15px;
+            padding-right: 15px;
+        
+            margin-top: 25px;
+            margin-bottom: 25px;
+            margin-right: 10px;
+            background-color: lightslategray;
+
+            h3 {
+                padding-bottom: 20px;
+                color: $text_grigio-scuro;
+            }
+
+            img {
+                width: 30px;
+                height: auto;
+            }
+        }
+    }
+}
+//FINE POPULAR_FEATURES
+
+
+
+//CIRCLE
+.circle_background {
+    position: absolute;
+    left: -200px;
+    width: 450px;
+    height: auto;
+    bottom: -1187px;
+}
