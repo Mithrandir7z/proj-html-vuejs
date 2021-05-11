@@ -198,3 +198,98 @@
     height: auto;
     bottom: -1187px;
 }
+
+
+
+//INIZIO OUR TESTIMONIALS
+.our_testimonials {
+    padding-top: 150px;
+    padding-bottom: 130px;
+    text-align: center;
+    background-image: url(../img/15.png);
+
+    h2 {
+        color: $text_grigio-scuro;
+    }
+
+    p {
+        padding-top: 20px;
+        color: $text_grigio-chiaro;
+    }
+}
+//FINE OUR TESTIMONIALS
+
+
+
+//INIZIO SLIDER
+.slider {
+    display: flex;
+    justify-content: center;
+
+    .left, .right {
+        padding: 70px 50px;
+        width: 40%;
+        margin: 20px;
+        text-align: center;
+        background-color: lightsalmon;
+
+        img {
+            width: 100px;
+            height: auto;
+            margin: auto;
+            border-radius: 999px;
+            border-color: white;
+        }
+
+        p {
+
+            padding-top: 25px;
+            strong {
+                color: $text_grigio-scuro;
+            }
+
+            span {
+                color: $text_grigio-chiaro;
+            }
+        }
+
+        div {
+            p {
+                text-align: left;
+            }
+        }
+    }
+}
+
+
+//INIZIO EFFETTO TRIDIMENSIONALE
+.grafic_trick_one {
+    
+}
+
+.grafic_trick_two {
+
+}
+//FINE EFFETTO TRIDIMENSIONALE
+
+
+.circle_slider {
+    display: flex;
+    justify-content: center;
+
+    .single_circle_one {
+        border-radius: 999px;
+        height: 12px;
+        width: 12px;
+        background-color: $background_celeste;
+    }
+
+    .single_circle_two {
+        border-radius: 999px;
+        height: 12px;
+        width: 12px;
+        background-color: black;
+        margin-left: 3px;
+    }
+}
+//FINE SLIDER

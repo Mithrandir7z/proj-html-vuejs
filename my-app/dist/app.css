@@ -230,3 +230,66 @@ img {
   height: auto;
   bottom: -1187px;
 }
+
+.our_testimonials {
+  padding-top: 150px;
+  padding-bottom: 130px;
+  text-align: center;
+  background-image: url(../img/15.png);
+}
+.our_testimonials h2 {
+  color: #495057;
+}
+.our_testimonials p {
+  padding-top: 20px;
+  color: #8E989F;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+}
+.slider .left, .slider .right {
+  padding: 70px 50px;
+  width: 40%;
+  margin: 20px;
+  text-align: center;
+  background-color: lightsalmon;
+}
+.slider .left img, .slider .right img {
+  width: 100px;
+  height: auto;
+  margin: auto;
+  border-radius: 999px;
+  border-color: white;
+}
+.slider .left p, .slider .right p {
+  padding-top: 25px;
+}
+.slider .left p strong, .slider .right p strong {
+  color: #495057;
+}
+.slider .left p span, .slider .right p span {
+  color: #8E989F;
+}
+.slider .left div p, .slider .right div p {
+  text-align: left;
+}
+
+.circle_slider {
+  display: flex;
+  justify-content: center;
+}
+.circle_slider .single_circle_one {
+  border-radius: 999px;
+  height: 12px;
+  width: 12px;
+  background-color: #377DFF;
+}
+.circle_slider .single_circle_two {
+  border-radius: 999px;
+  height: 12px;
+  width: 12px;
+  background-color: black;
+  margin-left: 3px;
+}
