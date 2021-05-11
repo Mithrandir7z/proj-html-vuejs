@@ -118,3 +118,50 @@ img {
 .flex .single-tile .right .bottom ul li span {
   padding-left: 13px;
 }
+
+.get_tips_tricks {
+  display: flex;
+}
+.get_tips_tricks .left {
+  width: 50%;
+}
+.get_tips_tricks .left .top {
+  padding-bottom: 20px;
+}
+.get_tips_tricks .left .top h2 {
+  font-size: 36px;
+  color: #495057;
+}
+.get_tips_tricks .left .top p {
+  padding-top: 25px;
+  color: #8E989F;
+}
+.get_tips_tricks .left .bottom {
+  padding: 30px 0px;
+}
+.get_tips_tricks .left .bottom .single_tile_get_tips {
+  padding: 15px 10px;
+}
+.get_tips_tricks .left .bottom .image img {
+  width: 60px;
+  height: auto;
+  padding-top: 15px;
+}
+.get_tips_tricks .left .bottom .text {
+  padding-left: 15px;
+}
+.get_tips_tricks .left .bottom .text h4 {
+  padding-bottom: 10px;
+  color: #377DFF;
+}
+.get_tips_tricks .left .bottom .text p {
+  color: #8E989F;
+}
+.get_tips_tricks .right {
+  width: 50%;
+  padding-top: 20px;
+}
+.get_tips_tricks .right img {
+  width: 500px;
+  height: auto;
+}
