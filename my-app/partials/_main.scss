@@ -230,6 +230,7 @@
         padding: 70px 50px;
         width: 40%;
         margin: 20px;
+        margin-bottom: 0;
         text-align: center;
         background-color: lightsalmon;
 
@@ -264,7 +265,9 @@
 
 //INIZIO EFFETTO TRIDIMENSIONALE
 .grafic_trick_one {
-    
+    height: 10px;
+    width: 100px;
+    background-color: lightskyblue;
 }
 
 .grafic_trick_two {
