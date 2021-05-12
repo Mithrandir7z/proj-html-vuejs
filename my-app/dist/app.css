@@ -231,16 +231,16 @@ img {
   bottom: -1187px;
 }
 
-.our_testimonials {
+.title-centre {
   padding-top: 150px;
   padding-bottom: 130px;
   text-align: center;
   background-image: url(../img/15.png);
 }
-.our_testimonials h2 {
+.title-centre h2 {
   color: #495057;
 }
-.our_testimonials p {
+.title-centre p {
   padding-top: 20px;
   color: #8E989F;
 }
@@ -299,4 +299,94 @@ img {
   width: 12px;
   background-color: black;
   margin-left: 3px;
+}
+
+.container_latest_posts {
+  display: flex;
+}
+.container_latest_posts .single_tile_latest_posts {
+  width: 33%;
+  padding: 10px 10px;
+  margin: 0 10px;
+  border: solid 1px #d6d6d6;
+}
+.container_latest_posts .single_tile_latest_posts h3 {
+  padding-top: 25px;
+}
+.container_latest_posts .single_tile_latest_posts p {
+  padding-top: 15px;
+}
+
+.wrapper_margin_contact {
+  margin: 0px 240px;
+}
+.wrapper_margin_contact .container_contact {
+  display: flex;
+}
+.wrapper_margin_contact .container_contact .left {
+  width: 50%;
+}
+.wrapper_margin_contact .container_contact .right {
+  width: 50%;
+  padding-left: 30px;
+  padding-right: 41px;
+}
+.wrapper_margin_contact .container_contact .right .logo_contact img {
+  width: 35px;
+  height: auto;
+}
+.wrapper_margin_contact .container_contact .right h4 {
+  padding-top: 40px;
+  padding-bottom: 28px;
+}
+.wrapper_margin_contact .container_contact .right p {
+  padding-bottom: 10px;
+}
+.wrapper_margin_contact .container_contact .right .icons_container {
+  padding-top: 45px;
+  display: flex;
+}
+.wrapper_margin_contact .container_contact .right .icons_container .single_icon {
+  width: 10px;
+  border: 1px solid lightgrey;
+  padding: 6px 15px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  border-radius: 3px;
+}
+.wrapper_margin_contact .container_contact .right .icons_container .single_icon i {
+  color: #377DFF;
+}
+.wrapper_margin_contact .container_contact .right .form_top {
+  display: flex;
+}
+.wrapper_margin_contact .container_contact .right .form_top input {
+  padding: 10px;
+  margin-right: 20px;
+}
+.wrapper_margin_contact .container_contact .right .form_centre {
+  margin-top: 40px;
+}
+.wrapper_margin_contact .container_contact .right .form_centre input {
+  width: 100%;
+  padding: 10px;
+}
+.wrapper_margin_contact .container_contact .right .form_bottom {
+  margin-top: 40px;
+}
+.wrapper_margin_contact .container_contact .right .form_bottom input {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 150px;
+}
+.wrapper_margin_contact .container_contact .right .form_bottom button {
+  margin-top: 25px;
+  padding: 12px 21px;
+  background-color: #377DFF;
+  color: #FFFFFF;
+  border: #FFFFFF;
+  border-radius: 5px;
 }
