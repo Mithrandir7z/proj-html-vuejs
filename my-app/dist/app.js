@@ -7,12 +7,50 @@
   \********************/
 /***/ (() => {
 
+var _data;
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 var app = new Vue({
   el: '#root',
-  data: {
+  data: (_data = {
     home: "Home",
-    aboutUs: "About Us"
-  },
+    aboutUs: "About Us",
+    feature: "Feature",
+    testimonials: "Testimonials",
+    contactUs: "Contact US",
+    menu: [{
+      linkMenu: "About Us"
+    }, {
+      linkMenu: "Theme"
+    }, {
+      linkMenu: "Features"
+    }, {
+      linkMenu: "Pricing"
+    }, {
+      linkMenu: "Blog"
+    }]
+  }, _defineProperty(_data, "aboutUs", [{
+    linkAboutUs: "About Sofbox"
+  }, {
+    linkAboutUs: "Roadmap"
+  }, {
+    linkAboutUs: "How it Work"
+  }, {
+    linkAboutUs: "Team"
+  }, {
+    linkAboutUs: "News"
+  }]), _defineProperty(_data, "quickLinks", [{
+    quickLinks: "About Us"
+  }, {
+    quickLinks: "Theme"
+  }, {
+    quickLinks: "Features"
+  }, {
+    quickLinks: "Pricing"
+  }, {
+    quickLinks: "Blog"
+  }]), _data),
   methods: {},
   mounted: {}
 });

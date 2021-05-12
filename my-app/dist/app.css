@@ -393,20 +393,37 @@ img {
 
 footer {
   margin-top: 150px;
+  padding-bottom: 50px;
 }
 footer .margin_wrapper {
   border-top: 1px solid lightgrey;
+  display: flex;
 }
-footer .margin_wrapper .logo_footer {
+footer .margin_wrapper .left .logo_footer {
   padding-top: 60px;
 }
-footer .margin_wrapper .logo_footer img {
+footer .margin_wrapper .left .logo_footer img {
   width: 115px;
   height: auto;
 }
-footer .margin_wrapper p {
+footer .margin_wrapper .left p {
   padding-top: 15px;
 }
-footer .margin_wrapper .secondary {
-  padding-top: 50px;
+footer .margin_wrapper .left .secondary {
+  padding-top: 40px;
+}
+footer .margin_wrapper .right {
+  padding-left: 250px;
+  display: flex;
+}
+footer .margin_wrapper .right .list {
+  padding-top: 60px;
+  margin-right: 300px;
+  background-color: lightsalmon;
+}
+footer .margin_wrapper .right .list ul {
+  list-style-type: none;
+}
+footer .margin_wrapper .right .list ul li {
+  padding-top: 25px;
 }

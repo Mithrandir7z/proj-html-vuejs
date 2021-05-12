@@ -1,25 +1,50 @@
 footer {
     margin-top: 150px;
+    padding-bottom: 50px;
     
     .margin_wrapper {
         border-top: 1px solid lightgrey;
+        display: flex;
 
-        .logo_footer {
-            padding-top: 60px;
-
-            img {
-                width: 115px;
-                height: auto;
+        .left {
+            .logo_footer {
+                padding-top: 60px;
+    
+                img {
+                    width: 115px;
+                    height: auto;
+                }
+            }
+    
+            p {
+                padding-top: 15px;
+            }
+    
+            .secondary {
+                padding-top: 40px;
             }
         }
 
-        p {
-            padding-top: 15px;
+
+        .right {
+            padding-left: 250px;
+            display: flex;
+
+           .list {
+            padding-top: 60px;
+            margin-right: 300px;
+            background-color: lightsalmon;
+
+                ul {
+                    list-style-type: none;
+
+                    li {
+                        padding-top: 25px;
+                    }
+                }
+           }
         }
 
-        .secondary {
-            padding-top: 50px;
-        }
     }
     
 }

@@ -30,9 +30,9 @@
                     <ul>
                         <li>{{home}}</li>
                         <li>{{aboutUs}}</li>
-                        <li>Home</li>
-                        <li>Home</li>
-                        <li>Home</li>
+                        <li>{{feature}}</li>
+                        <li>{{testimonials}}</li>
+                        <li>{{contactUs}}</li>
                     </ul>
                     
                     <span>
@@ -603,6 +603,30 @@
                 </div>
 
                 <div class="right">
+
+                    <!--single list-->
+                    <div class="list">
+                        <h4>Menu</h4>
+                        <ul>
+                            <li v-for="link in menu">{{link.linkMenu}}</li>
+                        </ul>
+                    </div>
+
+                    <!--single list-->
+                    <div class="list">
+                        <h4>Menu</h4>
+                        <ul>
+                            <li v-for="link in aboutUs">{{link.linkAboutUs}}</li>
+                        </ul>
+                    </div>
+
+                    <!--single list-->
+                    <div class="list">
+                        <h4>Menu</h4>
+                        <ul>
+                            <li v-for="link in quickLinks">{{link.quickLinks}}</li>
+                        </ul>
+                    </div>
 
                 </div>
 
