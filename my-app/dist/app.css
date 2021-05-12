@@ -390,3 +390,23 @@ img {
   border: #FFFFFF;
   border-radius: 5px;
 }
+
+footer {
+  margin-top: 150px;
+}
+footer .margin_wrapper {
+  border-top: 1px solid lightgrey;
+}
+footer .margin_wrapper .logo_footer {
+  padding-top: 60px;
+}
+footer .margin_wrapper .logo_footer img {
+  width: 115px;
+  height: auto;
+}
+footer .margin_wrapper p {
+  padding-top: 15px;
+}
+footer .margin_wrapper .secondary {
+  padding-top: 50px;
+}

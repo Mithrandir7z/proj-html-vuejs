@@ -1,0 +1,25 @@
+footer {
+    margin-top: 150px;
+    
+    .margin_wrapper {
+        border-top: 1px solid lightgrey;
+
+        .logo_footer {
+            padding-top: 60px;
+
+            img {
+                width: 115px;
+                height: auto;
+            }
+        }
+
+        p {
+            padding-top: 15px;
+        }
+
+        .secondary {
+            padding-top: 50px;
+        }
+    }
+    
+}
