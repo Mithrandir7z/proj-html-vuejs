@@ -4,7 +4,7 @@ var app = new Vue({
     data: {
 
       home: "Home",
-      aboutUs: "About Us",
+      about: "About Us",
       feature: "Feature",
       testimonials: "Testimonials",
       contactUs: "Contact US",
@@ -55,33 +55,26 @@ var app = new Vue({
 
       quickLinks: [
         {
-          quickLinks: "About Us"
+          quick: "About Us"
         },
 
         {
-          quickLinks: "Theme"
+          quick: "Theme"
         },
 
         {
-          quickLinks: "Features"
+          quick: "Features"
         },
 
         {
-          quickLinks: "Pricing"
+          quick: "Pricing"
         },
 
         {
-          quickLinks: "Blog"
+          quick: "Blog"
         }
       ]
 
-    },
-
-    methods: {
-
-    },
-
-    mounted: {
-
     }
+    
 })

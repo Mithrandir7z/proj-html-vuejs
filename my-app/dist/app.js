@@ -7,15 +7,11 @@
   \********************/
 /***/ (() => {
 
-var _data;
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 var app = new Vue({
   el: '#root',
-  data: (_data = {
+  data: {
     home: "Home",
-    aboutUs: "About Us",
+    about: "About Us",
     feature: "Feature",
     testimonials: "Testimonials",
     contactUs: "Contact US",
@@ -29,30 +25,30 @@ var app = new Vue({
       linkMenu: "Pricing"
     }, {
       linkMenu: "Blog"
+    }],
+    aboutUs: [{
+      linkAboutUs: "About Sofbox"
+    }, {
+      linkAboutUs: "Roadmap"
+    }, {
+      linkAboutUs: "How it Work"
+    }, {
+      linkAboutUs: "Team"
+    }, {
+      linkAboutUs: "News"
+    }],
+    quickLinks: [{
+      quick: "About Us"
+    }, {
+      quick: "Theme"
+    }, {
+      quick: "Features"
+    }, {
+      quick: "Pricing"
+    }, {
+      quick: "Blog"
     }]
-  }, _defineProperty(_data, "aboutUs", [{
-    linkAboutUs: "About Sofbox"
-  }, {
-    linkAboutUs: "Roadmap"
-  }, {
-    linkAboutUs: "How it Work"
-  }, {
-    linkAboutUs: "Team"
-  }, {
-    linkAboutUs: "News"
-  }]), _defineProperty(_data, "quickLinks", [{
-    quickLinks: "About Us"
-  }, {
-    quickLinks: "Theme"
-  }, {
-    quickLinks: "Features"
-  }, {
-    quickLinks: "Pricing"
-  }, {
-    quickLinks: "Blog"
-  }]), _data),
-  methods: {},
-  mounted: {}
+  }
 });
 
 /***/ }),

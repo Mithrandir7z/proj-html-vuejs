@@ -408,9 +408,11 @@ footer .margin_wrapper .left .logo_footer img {
 }
 footer .margin_wrapper .left p {
   padding-top: 15px;
+  color: #8E989F;
 }
 footer .margin_wrapper .left .secondary {
   padding-top: 40px;
+  color: #8E989F;
 }
 footer .margin_wrapper .right {
   padding-left: 250px;
@@ -419,11 +421,11 @@ footer .margin_wrapper .right {
 footer .margin_wrapper .right .list {
   padding-top: 60px;
   margin-right: 300px;
-  background-color: lightsalmon;
 }
 footer .margin_wrapper .right .list ul {
   list-style-type: none;
 }
 footer .margin_wrapper .right .list ul li {
   padding-top: 25px;
+  color: #8E989F;
 }

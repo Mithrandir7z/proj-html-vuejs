@@ -18,10 +18,12 @@ footer {
     
             p {
                 padding-top: 15px;
+                color: $text_grigio-chiaro;
             }
     
             .secondary {
                 padding-top: 40px;
+                color: $text_grigio-chiaro;
             }
         }
 
@@ -33,13 +35,13 @@ footer {
            .list {
             padding-top: 60px;
             margin-right: 300px;
-            background-color: lightsalmon;
 
                 ul {
                     list-style-type: none;
 
                     li {
                         padding-top: 25px;
+                        color: $text_grigio-chiaro;
                     }
                 }
            }
