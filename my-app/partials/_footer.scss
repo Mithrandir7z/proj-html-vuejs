@@ -7,6 +7,8 @@ footer {
         display: flex;
 
         .left {
+            width: 10%;
+
             .logo_footer {
                 padding-top: 60px;
     
@@ -29,12 +31,13 @@ footer {
 
 
         .right {
+            width: 90%;
             padding-left: 250px;
             display: flex;
 
            .list {
+            width: 33.33%;
             padding-top: 60px;
-            margin-right: 300px;
 
                 ul {
                     list-style-type: none;
@@ -42,6 +45,15 @@ footer {
                     li {
                         padding-top: 25px;
                         color: $text_grigio-chiaro;
+
+                        a {
+                            text-decoration: none;
+                            color: $text_grigio-scuro;
+
+                            &:hover {
+                                color: $text_celeste-chiaro;
+                            }
+                        }
                     }
                 }
            }

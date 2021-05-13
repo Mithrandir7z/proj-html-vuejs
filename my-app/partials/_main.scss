@@ -146,6 +146,10 @@
             button {
                 @include style-button;
                 color: $text_bianco;
+
+                &:hover {
+                    background-color: $black;
+                }
             }
         }
     }
@@ -163,6 +167,21 @@
         
 
         .single_tile_popular_features {
+
+            &:hover {
+                background-color: $background_verde-acqua;
+                color: white;
+
+                h3 {
+                    color: white;
+                }
+
+                i {
+                    color: white;
+                }
+
+            }
+
             width: 25%;
             padding-top: 25px;
             padding-bottom: 25px;
@@ -171,19 +190,21 @@
         
             margin-top: 25px;
             margin-bottom: 25px;
-            margin-right: 10px;
+            margin-right: 30px;
             background-color: white;
             box-shadow: -4px 5px 44px #c1c1c1;
 
             h3 {
                 padding-bottom: 20px;
                 color: $text_grigio-scuro;
+
             }
 
-            img {
-                width: 30px;
-                height: auto;
+            i {
+                color: $text_celeste-chiaro;
+                font-size: 35px;
             }
+
         }
     }
 }
@@ -408,6 +429,10 @@
                 button {
                     margin-top: 25px;
                     @include style-button;
+
+                    &:hover {
+                        background-color: $black;
+                    }
                 }
             }
         }

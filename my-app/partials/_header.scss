@@ -29,6 +29,10 @@
                     a {
                         text-decoration: none;
                         color: $text_grigio-scuro;
+
+                        &:hover {
+                            color: $text_celeste-chiaro;
+                        }
                     }
                 }
             }
@@ -40,6 +44,10 @@
             button {
                 @include style-button;
                 margin-left: 27px;
+
+                &:hover {
+                    background-color: $black;
+                }
             }
         }   
         
@@ -78,6 +86,10 @@
         button {
             @include style-button;
             margin-top: 45px;
+
+            &:hover {
+                background-color: $black;
+            }
         }
     }
 
@@ -90,7 +102,7 @@
             position: relative;
             right: 30px;
             bottom: 359px;
-            top: 100px;
+            top: 40px;
         }
     }
 }
