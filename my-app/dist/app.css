@@ -323,12 +323,6 @@ img {
   text-align: left;
 }
 
-.grafic_trick_one {
-  height: 10px;
-  width: 100px;
-  background-color: lightskyblue;
-}
-
 .circle_slider {
   display: flex;
   justify-content: center;
