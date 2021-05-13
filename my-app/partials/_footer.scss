@@ -60,5 +60,22 @@ footer {
         }
 
     }
+
+    .collegamento_cerchio {
+        display: flex;
+        justify-content: flex-end;
+
+        .cerchio {
+            border-radius: 999px;
+            margin-right: 272px;
+            border: solid 1px $background_grigio-chiaro;
+            background-color: $background_grigio-chiaro;
+            padding: 8px;
+
+            i {
+                color: white;
+            }
+        }
+    }
     
 }
