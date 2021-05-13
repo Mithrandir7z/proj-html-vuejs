@@ -201,8 +201,20 @@
             }
 
             i {
-                color: $text_celeste-chiaro;
                 font-size: 35px;
+                padding-top: 45px;
+            }
+
+            .icon-blue {
+                color: $text_celeste-chiaro;
+            }
+
+            .icon-orange {
+                color: $text_arancio;
+            }
+
+            .icon-lightgreen {
+                color: $text_verde-acqua;
             }
 
         }

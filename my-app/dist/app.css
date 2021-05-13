@@ -255,8 +255,17 @@ img {
   color: #495057;
 }
 .popular_features .bottom .single_tile_popular_features i {
-  color: #377DFF;
   font-size: 35px;
+  padding-top: 45px;
+}
+.popular_features .bottom .single_tile_popular_features .icon-blue {
+  color: #377DFF;
+}
+.popular_features .bottom .single_tile_popular_features .icon-orange {
+  color: #FF796D;
+}
+.popular_features .bottom .single_tile_popular_features .icon-lightgreen {
+  color: #6CDAC1;
 }
 
 .circle_background {
